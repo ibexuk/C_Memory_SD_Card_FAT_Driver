@@ -1,0 +1,90 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Autos>
+  <Watches active="0" />
+ </Autos>
+ <Bookmarks>
+  <BookmarkItem column="16" line="599" path="C:\_PROJECTS\182-Quail RBS\Firm\V0-10\mem-mmcsd.c" number="1" name="Unnamed 1" />
+ </Bookmarks>
+ <Breakpoints>
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="D_Abort" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="3" mask="0" comparison="0" expression="FIQ" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="3" mask="0" comparison="0" expression="IRQ" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="P_Abort" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="3" mask="0" comparison="0" expression="Reset" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="3" mask="0" comparison="0" expression="SWI" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="ARM Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="Undef" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="BusFault" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="ExceptionEntryReturnFault" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="HardFault" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="MemManage" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="3" mask="0" comparison="0" expression="Reset" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="UsageFault_CheckingError" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="UsageFault_Coprocessor" filename="" />
+  <BreakpointListItem actiontype="0" chainFrom="" line="-1" defaultBreakType="true" length="0" triggertype="0" useHWbreakpoint="false" group="Cortex-M3 Exceptions" breakdatatype="5" value="0" name="unnamed" counter="0" state="2" mask="0" comparison="0" expression="UsageFault_StateError" filename="" />
+ </Breakpoints>
+ <ExecutionCountWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="0x21c34" numColumns="8" sizeText="64" dataSize="4" radix="16" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory4>
+ <MemoryUsageWindow>
+  <ProjectSessionItem path="mmcsd" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd;Source Files" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd;System Files" name="unnamed" />
+ </MemoryUsageWindow>
+ <Project>
+  <ProjectSessionItem path="mmcsd" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd;Source Files" name="unnamed" />
+  <ProjectSessionItem path="mmcsd;mmcsd;System Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="SSP0/SSP0SR;I2S/I2SSTATE" binaryNodes="" unsignedNodes="" visibleGroups="MAC;I2S;GPDMA;SSP0" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register4>
+ <SourceNavigatorWindow/>
+ <TraceWindow>
+  <Trace wrap="Yes" type="1" enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="31" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\main.h" y="199" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\main.h" left="0" selected="0" name="unnamed" top="84" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\ap-main.c" y="862" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\ap-main.c" left="0" selected="0" name="unnamed" top="862" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\ap-main.h" y="31" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\ap-main.h" left="0" selected="0" name="unnamed" top="12" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-ffs.c" y="331" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-ffs.c" left="0" selected="1" name="unnamed" top="288" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="76" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-ffs.h" y="270" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-ffs.h" left="0" selected="0" name="unnamed" top="219" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="50" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-mmcsd.c" y="858" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-mmcsd.c" left="0" selected="0" name="unnamed" top="837" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-mmcsd.h" y="210" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\mem-mmcsd.h" left="0" selected="0" name="unnamed" top="53" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\Philips_LPC230X_Startup.s" y="301" path="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10\Philips_LPC230X_Startup.s" left="0" selected="0" name="unnamed" top="266" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="mmcsd" autoConnectTarget="/USB CrossConnect for ARM-RTCK" debugSearchFileMap="" fileDialogInitialDirectory="C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-10" fileDialogDefaultFilter="*.cpp;*.cxx;*.cc;*.c;*.h;*.hpp;*.hxx" autoConnectCapabilities="1407" debugSearchPath="" buildConfiguration="ARM Flash Debug" />
+</session>

@@ -1,0 +1,1116 @@
+MPLINK 4.22, Linker
+Linker Map File - Created Tue Dec 16 16:55:57 2008
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+           .code___init.o       code   0x000006    program   0x000002
+               highVector       code   0x000008    program   0x000006
+         .romdata_c018i.o    romdata   0x00000e    program   0x000000
+       .romdata_mem-ffs.o    romdata   0x00000e    program   0x000000
+     .idata_mem-mmcsd.o_i    romdata   0x00000e    program   0x000006
+        .romdata___init.o    romdata   0x00000e    program   0x000000
+       .romdata_ap-main.o    romdata   0x00000e    program   0x000000
+     .romdata_mem-mmcsd.o    romdata   0x00000e    program   0x000000
+             .stringtable    romdata   0x00000e    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00000e    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00000e    program   0x000000
+       .idata_mem-ffs.o_i    romdata   0x000014    program   0x000002
+      .idata_fxd3232u.o_i    romdata   0x000016    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x000016    program   0x000000
+        .idata___init.o_i    romdata   0x000016    program   0x000000
+            .code_c018i.o       code   0x000016    program   0x000000
+         .idata_c018i.o_i    romdata   0x000016    program   0x000000
+                lowVector       code   0x000018    program   0x000006
+                   .cinit    romdata   0x00001e    program   0x000026
+          .code_mem-ffs.o       code   0x000044    program   0x005a8a
+        .code_mem-mmcsd.o       code   0x005ace    program   0x001900
+          .code_ap-main.o       code   0x0073ce    program   0x0006b6
+               _cinit_scn       code   0x007a84    program   0x00009e
+          .code_fxm3232.o       code   0x007b22    program   0x000070
+         .code_fxd3232u.o       code   0x007b92    program   0x000048
+                     PROG       code   0x007bda    program   0x00003c
+             _startup_scn       code   0x007c16    program   0x00001c
+                   STRING       code   0x007c32    program   0x00001c
+                    .code       code   0x007c4e    program   0x00000e
+       .idata_ap-main.o_i    romdata   0x007c5c    program   0x0000a8
+ .config_300001_ap-main.o    romdata   0x300001    program   0x000001
+ .config_300002_ap-main.o    romdata   0x300002    program   0x000001
+ .config_300003_ap-main.o    romdata   0x300003    program   0x000001
+ .config_300005_ap-main.o    romdata   0x300005    program   0x000001
+ .config_300006_ap-main.o    romdata   0x300006    program   0x000001
+ .config_300008_ap-main.o    romdata   0x300008    program   0x000001
+ .config_300009_ap-main.o    romdata   0x300009    program   0x000001
+ .config_30000a_ap-main.o    romdata   0x30000a    program   0x000001
+ .config_30000b_ap-main.o    romdata   0x30000b    program   0x000001
+ .config_30000c_ap-main.o    romdata   0x30000c    program   0x000001
+ .config_30000d_ap-main.o    romdata   0x30000d    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000014
+                 .tmpdata      udata   0x000014       data   0x000014
+                  acssect      udata   0x000028       data   0x000002
+       .udata_mem-mmcsd.o      udata   0x000080       data   0x000029
+       .idata_mem-mmcsd.o      idata   0x0000a9       data   0x000006
+ ffs_512_byte_ram_section      udata   0x000600       data   0x000200
+                   .stack      udata   0x000d00       data   0x000100
+         .idata_ap-main.o      idata   0x000e00       data   0x0000a8
+         .udata_mem-ffs.o      udata   0x000ea8       data   0x000033
+         .udata_ap-main.o      udata   0x000edb       data   0x00000b
+           .udata_c018i.o      udata   0x000ee6       data   0x00000a
+         .idata_mem-ffs.o      idata   0x000ef0       data   0x000002
+           .idata_c018i.o      idata   0x000ef2       data   0x000000
+        .udata_fxd3232u.o      udata   0x000ef2       data   0x000000
+        .idata_fxd3232u.o      idata   0x000ef2       data   0x000000
+         .udata_fxm3232.o      udata   0x000ef2       data   0x000000
+         .idata_fxm3232.o      idata   0x000ef2       data   0x000000
+          .udata___init.o      udata   0x000ef2       data   0x000000
+          .idata___init.o      idata   0x000ef2       data   0x000000
+            SFR_UNBANKED0      udata   0x000f80       data   0x000080
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000015      
+                            0x000018    0x007d03      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            32013 out of 66584 program addresses used, program memory utilization is 48%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 FXD3232U   0x007b92    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                 FXM1616U   0x007bda    program     extern C:\MCC18\src\traditional\math\fxm1616u.asm
+                  FXM3232   0x007b22    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+         ___else_lbl00101   0x006ebc    program     static                          
+         ___else_lbl00115   0x007186    program     static                          
+         ___else_lbl00183   0x002d54    program     static                          
+         ___else_lbl00185   0x002f32    program     static                          
+         ___else_lbl00187   0x002fa0    program     static                          
+         ___else_lbl00191   0x00300e    program     static                          
+         ___else_lbl00329   0x004e68    program     static                          
+         ___else_lbl00337   0x005192    program     static                          
+         ___else_lbl00341   0x005248    program     static                          
+          ___for_lbl00103   0x006fda    program     static                          
+          ___for_lbl00104   0x006fe4    program     static                          
+          ___for_lbl00107   0x006fa0    program     static                          
+          ___for_lbl00108   0x00702a    program     static                          
+          ___for_lbl00109   0x007034    program     static                          
+          ___for_lbl00110   0x006ffa    program     static                          
+          ___for_lbl00117   0x00729e    program     static                          
+          ___for_lbl00118   0x0072a8    program     static                          
+          ___for_lbl00119   0x007270    program     static                          
+          ___for_lbl00174   0x002c74    program     static                          
+          ___for_lbl00175   0x002c78    program     static                          
+          ___for_lbl00179   0x002bd6    program     static                          
+          ___for_lbl00222   0x003586    program     static                          
+          ___for_lbl00223   0x00358a    program     static                          
+          ___for_lbl00226   0x003524    program     static                          
+          ___for_lbl00227   0x0035ee    program     static                          
+          ___for_lbl00228   0x0035f2    program     static                          
+          ___for_lbl00231   0x00358c    program     static                          
+          ___for_lbl00330   0x005298    program     static                          
+          ___for_lbl00331   0x0052ae    program     static                          
+          ___for_lbl00332   0x00526e    program     static                          
+          ___for_lbl00333   0x005284    program     static                          
+          ___for_lbl00342   0x005014    program     static                          
+          ___for_lbl00343   0x004f8e    program     static                          
+           ___if_lbl00046   0x0079fc    program     static                          
+           ___if_lbl00047   0x007a12    program     static                          
+           ___if_lbl00048   0x007a1c    program     static                          
+           ___if_lbl00049   0x007a3c    program     static                          
+           ___if_lbl00050   0x007a4c    program     static                          
+           ___if_lbl00051   0x007a4c    program     static                          
+           ___if_lbl00052   0x007a4c    program     static                          
+           ___if_lbl00093   0x006d82    program     static                          
+           ___if_lbl00096   0x006dc8    program     static                          
+           ___if_lbl00097   0x006dce    program     static                          
+           ___if_lbl00100   0x006f84    program     static                          
+           ___if_lbl00102   0x006f9a    program     static                          
+           ___if_lbl00105   0x006fc6    program     static                          
+           ___if_lbl00106   0x006fda    program     static                          
+           ___if_lbl00114   0x00724e    program     static                          
+           ___if_lbl00116   0x007264    program     static                          
+           ___if_lbl00120   0x0072c8    program     static                          
+           ___if_lbl00121   0x0072c8    program     static                          
+           ___if_lbl00167   0x002ab2    program     static                          
+           ___if_lbl00171   0x002b22    program     static                          
+           ___if_lbl00172   0x002b30    program     static                          
+           ___if_lbl00173   0x002bd4    program     static                          
+           ___if_lbl00177   0x002c74    program     static                          
+           ___if_lbl00178   0x002c74    program     static                          
+           ___if_lbl00182   0x002d76    program     static                          
+           ___if_lbl00184   0x002f9e    program     static                          
+           ___if_lbl00186   0x002fce    program     static                          
+           ___if_lbl00188   0x00300c    program     static                          
+           ___if_lbl00189   0x00302c    program     static                          
+           ___if_lbl00190   0x00302c    program     static                          
+           ___if_lbl00192   0x00304a    program     static                          
+           ___if_lbl00193   0x0030c2    program     static                          
+           ___if_lbl00194   0x003102    program     static                          
+           ___if_lbl00216   0x003438    program     static                          
+           ___if_lbl00219   0x0034e6    program     static                          
+           ___if_lbl00220   0x00350c    program     static                          
+           ___if_lbl00221   0x003522    program     static                          
+           ___if_lbl00225   0x003586    program     static                          
+           ___if_lbl00230   0x0035ee    program     static                          
+           ___if_lbl00232   0x003608    program     static                          
+           ___if_lbl00233   0x00361e    program     static                          
+           ___if_lbl00234   0x003634    program     static                          
+           ___if_lbl00235   0x003666    program     static                          
+           ___if_lbl00328   0x004e8a    program     static                          
+           ___if_lbl00334   0x005190    program     static                          
+           ___if_lbl00335   0x005206    program     static                          
+           ___if_lbl00336   0x005206    program     static                          
+           ___if_lbl00338   0x005246    program     static                          
+           ___if_lbl00339   0x00526e    program     static                          
+           ___if_lbl00340   0x00526e    program     static                          
+       ___return_lbl00000   0x007bd8    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x007b90    program     static                          
+       ___return_lbl00000   0x00741c    program     static                          
+       ___return_lbl00001   0x007c30    program     static                          
+       ___return_lbl00001   0x00742c    program     static                          
+       ___return_lbl00002   0x007b20    program     static                          
+       ___return_lbl00042   0x00000c    program     static                          
+       ___return_lbl00043   0x00001c    program     static                          
+       ___return_lbl00044   0x007a4c    program     static                          
+       ___return_lbl00092   0x007058    program     static                          
+       ___return_lbl00111   0x0072ca    program     static                          
+       ___return_lbl00166   0x002af0    program     static                          
+       ___return_lbl00170   0x003108    program     static                          
+       ___return_lbl00215   0x003668    program     static                          
+       ___return_lbl00327   0x0052fa    program     static                          
+        ___while_lbl00002   0x007420    program     static                          
+        ___while_lbl00003   0x00742c    program     static                          
+        ___while_lbl00094   0x006d86    program     static                          
+        ___while_lbl00095   0x006d8e    program     static                          
+        ___while_lbl00098   0x006dd0    program     static                          
+        ___while_lbl00099   0x006dd8    program     static                          
+        ___while_lbl00112   0x007092    program     static                          
+        ___while_lbl00113   0x00709a    program     static                          
+        ___while_lbl00168   0x002ade    program     static                          
+        ___while_lbl00169   0x002ae8    program     static                          
+        ___while_lbl00180   0x002ccc    program     static                          
+        ___while_lbl00181   0x0030c4    program     static                          
+        ___while_lbl00217   0x003470    program     static                          
+        ___while_lbl00218   0x003668    program     static                          
+               __config_0   0x300001    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_1   0x300002    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+              __config_10   0x30000d    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_2   0x300003    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_3   0x300005    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_4   0x300006    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_5   0x300008    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_6   0x300009    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_7   0x30000a    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_8   0x30000b    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_9   0x30000c    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                   __init   0x000006    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+              __tmplbl_10   0x006d22    program     static                          
+             __tmplbl_109   0x004408    program     static                          
+              __tmplbl_11   0x006d22    program     static                          
+              __tmplbl_12   0x006d22    program     static                          
+              __tmplbl_13   0x006d22    program     static                          
+              __tmplbl_14   0x006d22    program     static                          
+              __tmplbl_15   0x006d1a    program     static                          
+              __tmplbl_16   0x006d1a    program     static                          
+              __tmplbl_18   0x006d1a    program     static                          
+               __tmplbl_2   0x0079d2    program     static                          
+              __tmplbl_21   0x006d1a    program     static                          
+              __tmplbl_23   0x006d1a    program     static                          
+              __tmplbl_25   0x006d1a    program     static                          
+              __tmplbl_26   0x006d1a    program     static                          
+              __tmplbl_27   0x006d1a    program     static                          
+               __tmplbl_3   0x0079cc    program     static                          
+              __tmplbl_42   0x002bc8    program     static                          
+              __tmplbl_43   0x002c6c    program     static                          
+              __tmplbl_44   0x002c44    program     static                          
+              __tmplbl_45   0x002c42    program     static                          
+              __tmplbl_46   0x002e1e    program     static                          
+              __tmplbl_47   0x003008    program     static                          
+              __tmplbl_48   0x003028    program     static                          
+              __tmplbl_49   0x003046    program     static                          
+              __tmplbl_50   0x00309e    program     static                          
+              __tmplbl_51   0x0030e8    program     static                          
+              __tmplbl_57   0x003582    program     static                          
+              __tmplbl_58   0x003548    program     static                          
+              __tmplbl_59   0x0035ea    program     static                          
+               __tmplbl_6   0x006d7e    program     static                          
+              __tmplbl_60   0x0035b0    program     static                          
+               __tmplbl_7   0x006dac    program     static                          
+              __tmplbl_78   0x004fc6    program     static                          
+              __tmplbl_79   0x005046    program     static                          
+               __tmplbl_8   0x006d22    program     static                          
+              __tmplbl_80   0x00523a    program     static                          
+              __tmplbl_81   0x005262    program     static                          
+              __tmplbl_82   0x000a62    program     static                          
+              __tmplbl_86   0x001742    program     static                          
+              __tmplbl_87   0x001742    program     static                          
+              __tmplbl_89   0x001742    program     static                          
+               __tmplbl_9   0x006d22    program     static                          
+              __tmplbl_90   0x001742    program     static                          
+              __tmplbl_91   0x001742    program     static                          
+            __zero_memory   0x007c4e    program     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                _do_cinit   0x007a84    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _false   0x007bd4    program     static                          
+                 _startup   0x007c16    program     extern C:\MCC18\src\traditional\startup\c018i.c
+             athighvector   0x000008    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+              atlowvector   0x000018    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               clear_loop   0x007c54    program     static C:\MCC18\src\traditional\proc\p18F4620.asm
+                copy_loop   0x007af6    program     static                          
+            copy_one_byte   0x007afc    program     static                          
+                     done   0x007b20    program     static                          
+             done_copying   0x007b0a    program     static                          
+ffs_check_command_response_byte   0x007366    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+             ffs_clearerr   0x003364    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_convert_filename_to_dos   0x00367c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+      ffs_create_new_file   0x004bdc    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fclose   0x002a88    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                 ffs_feof   0x0033a0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_ferror   0x0033da    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fflush   0x0027ca    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fgetc   0x001eac    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              ffs_fgetpos   0x0018a0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fgets   0x002482    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+            ffs_find_file   0x00341c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fopen   0x000044    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fputc   0x001962    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fputs   0x00232a    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ffs_fputs_char   0x0023d6    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fread   0x0026b0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fseek   0x000a76    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              ffs_fsetpos   0x001756    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_ftell   0x0017d8    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fwrite   0x002596    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+  ffs_get_next_cluster_no   0x00530e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_get_next_free_cluster   0x004e14    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_get_next_free_cluster_found   0x0052b8    program     static                          
+    ffs_is_card_available   0x003414    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+      ffs_is_card_present   0x006d36    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_modify_cluster_entry_in_fat   0x0056de    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_overwrite_last_directory_entry   0x004420    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              ffs_process   0x005ace    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+            ffs_read_byte   0x007358    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_read_next_directory_entry   0x0039aa    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_read_sector_to_buffer   0x006d46    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_read_sector_to_buffer_exit   0x007050    program     static                          
+            ffs_read_word   0x007306    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+               ffs_remove   0x002af8    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_rename   0x00311c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_rewind   0x001916    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ffs_write_byte   0x0072de    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_write_sector_from_buffer   0x00706c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_write_sector_from_buffer_exit   0x0072c8    program     static                          
+   get_file_start_cluster   0x0049e0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               initialise   0x0073ce    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            interruptisrh   0x0079b2    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            interruptisrl   0x007a5e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                     jEnd   0x007c4c    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x007c42    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     loop   0x007ba0    program     static                          
+                     loop   0x007c26    program     static                          
+                     main   0x00741e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+             process_mode   0x007474    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            read_switches   0x00742e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                   strlen   0x007c32    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                     test   0x007a9e    program     static                          
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  BAUDCTL   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    DEBUG   0x000fd4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EEADRH   0x000faa       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PWM1CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              PWM1CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     SIGN   0x000000       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                        W   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 __AARGB0   0x000009       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                __FPFLAGS   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                  __REMB0   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+   active_fat_table_flags   0x0000a2       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+       append_access_mode   0x000e27       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+  append_read_access_mode   0x000e2f       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+             asm_irq_temp   0x000028       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+            asm_irq_temp1   0x000029       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+    card_is_high_capacity   0x000088       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+                curr_byte   0x000ee9       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x000eeb       data     static C:\MCC18\src\traditional\startup\c018i.c
+          current_cluster   0x000ed7       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+   data_area_start_sector   0x000094       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+                 data_ptr   0x000eed       data     static C:\MCC18\src\traditional\startup\c018i.c
+           disk_is_fat_32   0x000098       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+        fat1_start_sector   0x00008c       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+           ffs_10ms_timer   0x000ef1       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+  ffs_buffer_contains_lba   0x0000aa       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_buffer_needs_writing_to_card   0x00008b       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+     ffs_bytes_per_sector   0x000ed4       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+              ffs_card_ok   0x000ef0       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+ ffs_card_write_protected   0x0000ae       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+                 ffs_file   0x000ea8       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+       ffs_general_buffer   0x000600       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+          ffs_no_of_heads   0x000082       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_no_of_partition_sectors   0x000084       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_no_of_sectors_per_track   0x000083       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+file_system_information_sector   0x000080       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+             filename_all   0x000e05       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        filename_test_csv   0x000e16       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        filename_test_txt   0x000e09       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+  general_use_100ms_timer   0x000ee0       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+   general_use_10ms_timer   0x000ede       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+           hb_100ms_timer   0x000ea6       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            hb_1sec_timer   0x000ea7       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+  last_found_free_cluster   0x00009a       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+number_of_root_directory_sectors   0x000089       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+               our_file_0   0x000ee2       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               our_file_1   0x000ee4       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                     prom   0x000ee6       data     static C:\MCC18\src\traditional\startup\c018i.c
+         read_access_mode   0x000e23       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       read_switches_flag   0x000edb       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+   read_write_access_mode   0x000e29       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+read_write_directory_last_entry   0x0000a7       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+read_write_directory_last_lba   0x0000a3       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+root_directory_start_sector_cluster   0x000090       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+sectors_left_in_this_cluster   0x000ed6       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+      sectors_per_cluster   0x000099       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+          sectors_per_fat   0x00009e       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+           sm_ffs_process   0x0000a9       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+spreadsheet_file_no_text_file_string   0x000e81       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       switches_debounced   0x000e01       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+  switches_debounced_last   0x000e04       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            switches_last   0x000e03       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+             switches_new   0x000e02       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+   test_application_state   0x000e00       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+   text_file_line1_string   0x000e32       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   text_file_line2_string   0x000e4a       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+     user_mode_10ms_timer   0x000edc       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+        write_access_mode   0x000e25       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   write_read_access_mode   0x000e2c       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                   __init   0x000006    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+             athighvector   0x000008    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       ___return_lbl00042   0x00000c    program     static                          
+              atlowvector   0x000018    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       ___return_lbl00043   0x00001c    program     static                          
+                ffs_fopen   0x000044    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              __tmplbl_82   0x000a62    program     static                          
+                ffs_fseek   0x000a76    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              __tmplbl_89   0x001742    program     static                          
+              __tmplbl_90   0x001742    program     static                          
+              __tmplbl_87   0x001742    program     static                          
+              __tmplbl_91   0x001742    program     static                          
+              __tmplbl_86   0x001742    program     static                          
+              ffs_fsetpos   0x001756    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_ftell   0x0017d8    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              ffs_fgetpos   0x0018a0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_rewind   0x001916    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fputc   0x001962    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fgetc   0x001eac    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fputs   0x00232a    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ffs_fputs_char   0x0023d6    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fgets   0x002482    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fwrite   0x002596    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                ffs_fread   0x0026b0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fflush   0x0027ca    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_fclose   0x002a88    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ___if_lbl00167   0x002ab2    program     static                          
+        ___while_lbl00168   0x002ade    program     static                          
+        ___while_lbl00169   0x002ae8    program     static                          
+       ___return_lbl00166   0x002af0    program     static                          
+               ffs_remove   0x002af8    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ___if_lbl00171   0x002b22    program     static                          
+           ___if_lbl00172   0x002b30    program     static                          
+              __tmplbl_42   0x002bc8    program     static                          
+           ___if_lbl00173   0x002bd4    program     static                          
+          ___for_lbl00179   0x002bd6    program     static                          
+              __tmplbl_45   0x002c42    program     static                          
+              __tmplbl_44   0x002c44    program     static                          
+              __tmplbl_43   0x002c6c    program     static                          
+           ___if_lbl00177   0x002c74    program     static                          
+           ___if_lbl00178   0x002c74    program     static                          
+          ___for_lbl00174   0x002c74    program     static                          
+          ___for_lbl00175   0x002c78    program     static                          
+        ___while_lbl00180   0x002ccc    program     static                          
+         ___else_lbl00183   0x002d54    program     static                          
+           ___if_lbl00182   0x002d76    program     static                          
+              __tmplbl_46   0x002e1e    program     static                          
+         ___else_lbl00185   0x002f32    program     static                          
+           ___if_lbl00184   0x002f9e    program     static                          
+         ___else_lbl00187   0x002fa0    program     static                          
+           ___if_lbl00186   0x002fce    program     static                          
+              __tmplbl_47   0x003008    program     static                          
+           ___if_lbl00188   0x00300c    program     static                          
+         ___else_lbl00191   0x00300e    program     static                          
+              __tmplbl_48   0x003028    program     static                          
+           ___if_lbl00190   0x00302c    program     static                          
+           ___if_lbl00189   0x00302c    program     static                          
+              __tmplbl_49   0x003046    program     static                          
+           ___if_lbl00192   0x00304a    program     static                          
+              __tmplbl_50   0x00309e    program     static                          
+           ___if_lbl00193   0x0030c2    program     static                          
+        ___while_lbl00181   0x0030c4    program     static                          
+              __tmplbl_51   0x0030e8    program     static                          
+           ___if_lbl00194   0x003102    program     static                          
+       ___return_lbl00170   0x003108    program     static                          
+               ffs_rename   0x00311c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+             ffs_clearerr   0x003364    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+                 ffs_feof   0x0033a0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+               ffs_ferror   0x0033da    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+    ffs_is_card_available   0x003414    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+            ffs_find_file   0x00341c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+           ___if_lbl00216   0x003438    program     static                          
+        ___while_lbl00217   0x003470    program     static                          
+           ___if_lbl00219   0x0034e6    program     static                          
+           ___if_lbl00220   0x00350c    program     static                          
+           ___if_lbl00221   0x003522    program     static                          
+          ___for_lbl00226   0x003524    program     static                          
+              __tmplbl_58   0x003548    program     static                          
+              __tmplbl_57   0x003582    program     static                          
+          ___for_lbl00222   0x003586    program     static                          
+           ___if_lbl00225   0x003586    program     static                          
+          ___for_lbl00223   0x00358a    program     static                          
+          ___for_lbl00231   0x00358c    program     static                          
+              __tmplbl_60   0x0035b0    program     static                          
+              __tmplbl_59   0x0035ea    program     static                          
+          ___for_lbl00227   0x0035ee    program     static                          
+           ___if_lbl00230   0x0035ee    program     static                          
+          ___for_lbl00228   0x0035f2    program     static                          
+           ___if_lbl00232   0x003608    program     static                          
+           ___if_lbl00233   0x00361e    program     static                          
+           ___if_lbl00234   0x003634    program     static                          
+           ___if_lbl00235   0x003666    program     static                          
+        ___while_lbl00218   0x003668    program     static                          
+       ___return_lbl00215   0x003668    program     static                          
+ffs_convert_filename_to_dos   0x00367c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_read_next_directory_entry   0x0039aa    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+             __tmplbl_109   0x004408    program     static                          
+ffs_overwrite_last_directory_entry   0x004420    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+   get_file_start_cluster   0x0049e0    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+      ffs_create_new_file   0x004bdc    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_get_next_free_cluster   0x004e14    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+         ___else_lbl00329   0x004e68    program     static                          
+           ___if_lbl00328   0x004e8a    program     static                          
+          ___for_lbl00343   0x004f8e    program     static                          
+              __tmplbl_78   0x004fc6    program     static                          
+          ___for_lbl00342   0x005014    program     static                          
+              __tmplbl_79   0x005046    program     static                          
+           ___if_lbl00334   0x005190    program     static                          
+         ___else_lbl00337   0x005192    program     static                          
+           ___if_lbl00336   0x005206    program     static                          
+           ___if_lbl00335   0x005206    program     static                          
+              __tmplbl_80   0x00523a    program     static                          
+           ___if_lbl00338   0x005246    program     static                          
+         ___else_lbl00341   0x005248    program     static                          
+              __tmplbl_81   0x005262    program     static                          
+          ___for_lbl00332   0x00526e    program     static                          
+           ___if_lbl00340   0x00526e    program     static                          
+           ___if_lbl00339   0x00526e    program     static                          
+          ___for_lbl00333   0x005284    program     static                          
+          ___for_lbl00330   0x005298    program     static                          
+          ___for_lbl00331   0x0052ae    program     static                          
+ffs_get_next_free_cluster_found   0x0052b8    program     static                          
+       ___return_lbl00327   0x0052fa    program     static                          
+  ffs_get_next_cluster_no   0x00530e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+ffs_modify_cluster_entry_in_fat   0x0056de    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+              ffs_process   0x005ace    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+              __tmplbl_15   0x006d1a    program     static                          
+              __tmplbl_16   0x006d1a    program     static                          
+              __tmplbl_18   0x006d1a    program     static                          
+              __tmplbl_21   0x006d1a    program     static                          
+              __tmplbl_23   0x006d1a    program     static                          
+              __tmplbl_25   0x006d1a    program     static                          
+              __tmplbl_26   0x006d1a    program     static                          
+              __tmplbl_27   0x006d1a    program     static                          
+              __tmplbl_10   0x006d22    program     static                          
+               __tmplbl_8   0x006d22    program     static                          
+              __tmplbl_11   0x006d22    program     static                          
+              __tmplbl_12   0x006d22    program     static                          
+              __tmplbl_13   0x006d22    program     static                          
+              __tmplbl_14   0x006d22    program     static                          
+               __tmplbl_9   0x006d22    program     static                          
+      ffs_is_card_present   0x006d36    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_read_sector_to_buffer   0x006d46    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+               __tmplbl_6   0x006d7e    program     static                          
+           ___if_lbl00093   0x006d82    program     static                          
+        ___while_lbl00094   0x006d86    program     static                          
+        ___while_lbl00095   0x006d8e    program     static                          
+               __tmplbl_7   0x006dac    program     static                          
+           ___if_lbl00096   0x006dc8    program     static                          
+           ___if_lbl00097   0x006dce    program     static                          
+        ___while_lbl00098   0x006dd0    program     static                          
+        ___while_lbl00099   0x006dd8    program     static                          
+         ___else_lbl00101   0x006ebc    program     static                          
+           ___if_lbl00100   0x006f84    program     static                          
+           ___if_lbl00102   0x006f9a    program     static                          
+          ___for_lbl00107   0x006fa0    program     static                          
+           ___if_lbl00105   0x006fc6    program     static                          
+          ___for_lbl00103   0x006fda    program     static                          
+           ___if_lbl00106   0x006fda    program     static                          
+          ___for_lbl00104   0x006fe4    program     static                          
+          ___for_lbl00110   0x006ffa    program     static                          
+          ___for_lbl00108   0x00702a    program     static                          
+          ___for_lbl00109   0x007034    program     static                          
+ffs_read_sector_to_buffer_exit   0x007050    program     static                          
+       ___return_lbl00092   0x007058    program     static                          
+ffs_write_sector_from_buffer   0x00706c    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+        ___while_lbl00112   0x007092    program     static                          
+        ___while_lbl00113   0x00709a    program     static                          
+         ___else_lbl00115   0x007186    program     static                          
+           ___if_lbl00114   0x00724e    program     static                          
+           ___if_lbl00116   0x007264    program     static                          
+          ___for_lbl00119   0x007270    program     static                          
+          ___for_lbl00117   0x00729e    program     static                          
+          ___for_lbl00118   0x0072a8    program     static                          
+           ___if_lbl00120   0x0072c8    program     static                          
+           ___if_lbl00121   0x0072c8    program     static                          
+ffs_write_sector_from_buffer_exit   0x0072c8    program     static                          
+       ___return_lbl00111   0x0072ca    program     static                          
+           ffs_write_byte   0x0072de    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+            ffs_read_word   0x007306    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+            ffs_read_byte   0x007358    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+ffs_check_command_response_byte   0x007366    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+               initialise   0x0073ce    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       ___return_lbl00000   0x00741c    program     static                          
+                     main   0x00741e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        ___while_lbl00002   0x007420    program     static                          
+       ___return_lbl00001   0x00742c    program     static                          
+        ___while_lbl00003   0x00742c    program     static                          
+            read_switches   0x00742e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+             process_mode   0x007474    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            interruptisrh   0x0079b2    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __tmplbl_3   0x0079cc    program     static                          
+               __tmplbl_2   0x0079d2    program     static                          
+           ___if_lbl00046   0x0079fc    program     static                          
+           ___if_lbl00047   0x007a12    program     static                          
+           ___if_lbl00048   0x007a1c    program     static                          
+           ___if_lbl00049   0x007a3c    program     static                          
+           ___if_lbl00050   0x007a4c    program     static                          
+           ___if_lbl00051   0x007a4c    program     static                          
+           ___if_lbl00052   0x007a4c    program     static                          
+       ___return_lbl00044   0x007a4c    program     static                          
+            interruptisrl   0x007a5e    program     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                _do_cinit   0x007a84    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x007a9e    program     static                          
+                copy_loop   0x007af6    program     static                          
+            copy_one_byte   0x007afc    program     static                          
+             done_copying   0x007b0a    program     static                          
+                     done   0x007b20    program     static                          
+       ___return_lbl00002   0x007b20    program     static                          
+                  FXM3232   0x007b22    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x007b90    program     static                          
+                 FXD3232U   0x007b92    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                     loop   0x007ba0    program     static                          
+                   _false   0x007bd4    program     static                          
+       ___return_lbl00000   0x007bd8    program     static                          
+                 FXM1616U   0x007bda    program     extern C:\MCC18\src\traditional\math\fxm1616u.asm
+                 _startup   0x007c16    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x007c26    program     static                          
+       ___return_lbl00001   0x007c30    program     static                          
+                   strlen   0x007c32    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x007c42    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x007c4c    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+            __zero_memory   0x007c4e    program     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               clear_loop   0x007c54    program     static C:\MCC18\src\traditional\proc\p18F4620.asm
+               __config_0   0x300001    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_1   0x300002    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_2   0x300003    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_3   0x300005    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_4   0x300006    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_5   0x300008    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_6   0x300009    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_7   0x30000a    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_8   0x30000b    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               __config_9   0x30000c    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+              __config_10   0x30000d    program     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                     SIGN   0x000000       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                 __AARGB7   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB0   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB0   0x000009       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __TEMPB3   0x000010       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB2   0x000011       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB1   0x000012       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                   __TEMP   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                 __TEMPB0   0x000013       data     extern C:\MCC18\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                  __tmp_0   0x000014       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+             asm_irq_temp   0x000028       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+            asm_irq_temp1   0x000029       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+file_system_information_sector   0x000080       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+          ffs_no_of_heads   0x000082       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_no_of_sectors_per_track   0x000083       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_no_of_partition_sectors   0x000084       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+    card_is_high_capacity   0x000088       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+number_of_root_directory_sectors   0x000089       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ffs_buffer_needs_writing_to_card   0x00008b       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+        fat1_start_sector   0x00008c       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+root_directory_start_sector_cluster   0x000090       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+   data_area_start_sector   0x000094       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+           disk_is_fat_32   0x000098       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+      sectors_per_cluster   0x000099       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+  last_found_free_cluster   0x00009a       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+          sectors_per_fat   0x00009e       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+   active_fat_table_flags   0x0000a2       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+read_write_directory_last_lba   0x0000a3       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+read_write_directory_last_entry   0x0000a7       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+           sm_ffs_process   0x0000a9       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+  ffs_buffer_contains_lba   0x0000aa       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+ ffs_card_write_protected   0x0000ae       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h
+       ffs_general_buffer   0x000600       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+   test_application_state   0x000e00       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+       switches_debounced   0x000e01       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+             switches_new   0x000e02       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+            switches_last   0x000e03       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+  switches_debounced_last   0x000e04       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+             filename_all   0x000e05       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        filename_test_txt   0x000e09       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        filename_test_csv   0x000e16       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+         read_access_mode   0x000e23       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+        write_access_mode   0x000e25       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+       append_access_mode   0x000e27       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   read_write_access_mode   0x000e29       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   write_read_access_mode   0x000e2c       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+  append_read_access_mode   0x000e2f       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   text_file_line1_string   0x000e32       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+   text_file_line2_string   0x000e4a       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+spreadsheet_file_no_text_file_string   0x000e81       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+           hb_100ms_timer   0x000ea6       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+            hb_1sec_timer   0x000ea7       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                 ffs_file   0x000ea8       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+     ffs_bytes_per_sector   0x000ed4       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+sectors_left_in_this_cluster   0x000ed6       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+          current_cluster   0x000ed7       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c
+       read_switches_flag   0x000edb       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+     user_mode_10ms_timer   0x000edc       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+   general_use_10ms_timer   0x000ede       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+  general_use_100ms_timer   0x000ee0       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h
+               our_file_0   0x000ee2       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+               our_file_1   0x000ee4       data     static C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c
+                     prom   0x000ee6       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x000ee9       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x000eeb       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x000eed       data     static C:\MCC18\src\traditional\startup\c018i.c
+              ffs_card_ok   0x000ef0       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+           ffs_10ms_timer   0x000ef1       data     extern C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTDbits   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTD   0x000f83       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATD   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATDbits   0x000f8c       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 LATEbits   0x000f8d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDRDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISDbits   0x000f95       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 DDREbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TRISEbits   0x000f96       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   EEADRH   0x000faa       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PWM1CON   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              PWM1CONbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              BAUDCTLbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  BAUDCTL   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    DEBUG   0x000fd4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                        W   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F4620.asm
+
+

@@ -1,0 +1,452 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BOOL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	87;"	d	line:87
+BOOL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	98;"	t	line:98
+BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	100;"	t	line:100
+BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	90;"	d	line:90
+BYTE_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	127;"	t	line:127
+CLEAR_WATCHDOG_TIMER::ClrWdt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	79;"	d	line:79
+CLEAR_WATCHDOG_TIMER::ClrWdt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	83;"	d	line:83
+DISABLE_INT::__asm__volatile("disi#0x3FFF")	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	70;"	d	line:70
+DO_BUSY_STATE_ACCESS_DELAY::Nop	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	110;"	d	line:110
+DO_BUSY_STATE_ACCESS_DELAY::Nop;Nop	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	173;"	d	line:173
+DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	108;"	t	line:108
+DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	94;"	d	line:94
+DWORD_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	160;"	t	line:160
+ENABLE_INT::__asm__volatile("disi#0x0000")	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	69;"	d	line:69
+FALSE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	89;"	d	line:89
+FALSE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	98;"	e	line:98	enum:_BOOL
+FFC_DI::PORTCbits.RC4	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	64;"	d	line:64
+FFC_DI::_RF2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	126;"	d	line:126
+FFS_ACCEPT_SDHC_CARDS::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	48;"	d	line:48
+FFS_C	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	14;"	d	line:14	file:
+FFS_CD_PIN_BIT::0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	157;"	d	line:157
+FFS_CD_PIN_BIT::0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	95;"	d	line:95
+FFS_CD_PIN_REGISTER::PORTC	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	94;"	d	line:94
+FFS_CD_PIN_REGISTER::PORTG	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	156;"	d	line:156
+FFS_CE::LATCbits.LATC1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	63;"	d	line:63
+FFS_CE::_LATF0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	125;"	d	line:125
+FFS_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	59;"	d	line:59
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	108;"	d	line:108
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	170;"	d	line:170
+FFS_EOF::-1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	186;"	d	line:186
+FFS_FILE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	175;"	t	line:175
+FFS_FOPEN_MAX::2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	91;"	d	line:91
+FFS_PROCESS_CARD_INITIALSIED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	190;"	e	line:190	enum:_FFS_PROCESS_STATE
+FFS_PROCESS_NO_CARD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	188;"	e	line:188	enum:_FFS_PROCESS_STATE
+FFS_PROCESS_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	191;"	t	line:191
+FFS_PROCESS_WAIT_FOR_CARD_FULLY_INSERTED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	189;"	e	line:189	enum:_FFS_PROCESS_STATE
+FFS_RTC_DATE::rtc_date	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	101;"	d	line:101
+FFS_RTC_HOURS::rtc_hours	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	102;"	d	line:102
+FFS_RTC_MINUTES::rtc_minutes	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	103;"	d	line:103
+FFS_RTC_MONTH::rtc_month	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	100;"	d	line:100
+FFS_RTC_SECONDS::rtc_seconds	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	104;"	d	line:104
+FFS_RTC_YEAR::rtc_year	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	99;"	d	line:99
+FFS_SEEK_CUR::1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	181;"	d	line:181
+FFS_SEEK_END::2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	182;"	d	line:182
+FFS_SEEK_SET::0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	180;"	d	line:180
+FFS_SPI_BUF_FULL::IFS0bits.SPI1IF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	131;"	d	line:131
+FFS_SPI_BUF_FULL::PIR1bits.SSPIF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	73;"	d	line:73
+FFS_SPI_RX_BYTE_BUFFER::SPI1BUF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	133;"	d	line:133
+FFS_SPI_RX_BYTE_BUFFER::SSPBUF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	75;"	d	line:75
+FFS_SPI_TX_BYTE::(data)IFS0bits.SPI1IF=0;SPI1BU	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	132;"	d	line:132
+FFS_SPI_TX_BYTE::(data)PIR1bits.SSPIF=0;SSPBUF=	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	74;"	d	line:74
+FFS_USING_MICROCHIP_C18_COMPILER	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	66;"	d	line:66
+FFS_WP_PIN_BIT::0x02	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	164;"	d	line:164
+FFS_WP_PIN_BIT::0x04	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	102;"	d	line:102
+FFS_WP_PIN_NC::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	104;"	d	line:104
+FFS_WP_PIN_NC::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	166;"	d	line:166
+FFS_WP_PIN_REGISTER::PORTC	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	101;"	d	line:101
+FFS_WP_PIN_REGISTER::PORTG	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	163;"	d	line:163
+FPWRT_PWR128	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	104;"	v	line:104
+GLOBAL_DATA_TYPE_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	85;"	d	line:85
+HILSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	151;"	m	line:151	struct:_DWORD_VAL::<anonymous>
+HIMSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	152;"	m	line:152	struct:_DWORD_VAL::<anonymous>
+INSTRUCTION_CLOCK_FREQUENCY::40000000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	58;"	d	line:58
+LED1_OFF::_LATD2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	30;"	d	line:30
+LED2_OFF::_LATD3	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	31;"	d	line:31
+LOLSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	149;"	m	line:149	struct:_DWORD_VAL::<anonymous>
+LOMSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	150;"	m	line:150	struct:_DWORD_VAL::<anonymous>
+LOWER_LSB::(a)((a).v[0])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	161;"	d	line:161
+LOWER_MSB::(a)((a).v[1])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	162;"	d	line:162
+LSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	135;"	m	line:135	struct:_WORD_VAL::<anonymous>
+LSB::(a)((a).v[0])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	140;"	d	line:140
+LSW	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	156;"	m	line:156	struct:_DWORD_VAL::<anonymous>
+MAIN_C::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	15;"	d	line:15	file:
+MAIN_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	20;"	d	line:20
+MMCSD_C	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	14;"	d	line:14	file:
+MMCSD_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	32;"	d	line:32
+MMCSD_USING_MICROCHIP_C18_COMPILER	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	40;"	d	line:40
+MSB	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	136;"	m	line:136	struct:_WORD_VAL::<anonymous>
+MSB::(a)((a).v[1])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	141;"	d	line:141
+MSW	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	157;"	m	line:157	struct:_DWORD_VAL::<anonymous>
+SIGNED_BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	102;"	t	line:102
+SIGNED_BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	91;"	d	line:91
+SIGNED_DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	110;"	t	line:110
+SIGNED_DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	95;"	d	line:95
+SIGNED_WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	106;"	t	line:106
+SIGNED_WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	93;"	d	line:93
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	145;"	d	line:145
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	85;"	d	line:85
+SPI_BUS_SET_TO_FULL_SPEED_SD::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	150;"	d	line:150
+SPI_BUS_SET_TO_FULL_SPEED_SD::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	89;"	d	line:89
+SPI_BUS_SET_TO_LOW_SPEED::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	140;"	d	line:140
+SPI_BUS_SET_TO_LOW_SPEED::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	81;"	d	line:81
+SWITCH_1_NEW_PRESS::switches_new&0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	38;"	d	line:38
+SWITCH_1_PRESSED::switches_debounced&0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	36;"	d	line:36
+TA_PROCESS_CARD_INSERTED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	46;"	e	line:46	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_CARD_OPERTATION_DONE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	48;"	e	line:48	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_DELETE_AND_CREATE_FILES	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	47;"	e	line:47	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_ERROR	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	49;"	e	line:49	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_WAIT_FOR_CARD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	45;"	e	line:45	enum:_TEST_APPLICATION_STATE
+TEST_APPLICATION_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	50;"	t	line:50
+TRUE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	88;"	d	line:88
+TRUE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	98;"	e	line:98	enum:_BOOL
+UPPER_LSB::(a)((a).v[2])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	163;"	d	line:163
+UPPER_MSB::(a)((a).v[3])	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	164;"	d	line:164
+Val	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	126;"	m	line:126	union:_BYTE_VAL
+WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	104;"	t	line:104
+WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	92;"	d	line:92
+WORD_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	139;"	t	line:139
+_BOOL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	98;"	g	line:98
+_BYTE_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	113;"	u	line:113
+_DWORD_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	144;"	u	line:144
+_FFS_FILE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	148;"	s	line:148
+_FFS_PROCESS_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	186;"	g	line:186
+_FPOR	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	171;"	f	line:171
+_T5Interrupt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	1003;"	f	line:1003	signature:(void)
+_TEST_APPLICATION_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	43;"	g	line:43
+_WORD_VAL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	130;"	u	line:130
+access_error	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	167;"	m	line:167	struct:_FFS_FILE::<anonymous>::<anonymous>
+active_fat_table_flags	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	276;"	v	line:276
+append_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	727;"	v	line:727
+append_read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	730;"	v	line:730
+asterix_wildcard_used	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1740;"	l	line:1740
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1280;"	l	line:1280
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1457;"	l	line:1457
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2340;"	l	line:2340
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	53;"	l	line:53
+b0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	117;"	m	line:117	struct:_BYTE_VAL::<anonymous>
+b1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	118;"	m	line:118	struct:_BYTE_VAL::<anonymous>
+b2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	119;"	m	line:119	struct:_BYTE_VAL::<anonymous>
+b3	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	120;"	m	line:120	struct:_BYTE_VAL::<anonymous>
+b4	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	121;"	m	line:121	struct:_BYTE_VAL::<anonymous>
+b5	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	122;"	m	line:122	struct:_BYTE_VAL::<anonymous>
+b6	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	123;"	m	line:123	struct:_BYTE_VAL::<anonymous>
+b7	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	124;"	m	line:124	struct:_BYTE_VAL::<anonymous>
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	745;"	l	line:745
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1871;"	l	line:1871
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	33;"	l	line:33
+bits	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	125;"	m	line:125	union:_BYTE_VAL
+bits	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	171;"	m	line:171	union:_FFS_FILE::<anonymous>
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1137;"	l	line:1137
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1286;"	l	line:1286
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1874;"	l	line:1874
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2093;"	l	line:2093
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2271;"	l	line:2271
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2422;"	l	line:2422
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2521;"	l	line:2521
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2573;"	l	line:2573
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	639;"	l	line:639
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	789;"	l	line:789
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	40;"	l	line:40
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	843;"	l	line:843
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	952;"	l	line:952
+byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	137;"	m	line:137	union:_WORD_VAL
+byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	153;"	m	line:153	union:_DWORD_VAL
+bytes_per_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	277;"	l	line:277
+bytes_to_new_posn	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	276;"	l	line:276
+c_string_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	746;"	l	line:746
+calculate_new_posn	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	278;"	l	line:278
+card_is_high_capacity	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	259;"	v	line:259
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1277;"	l	line:1277
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1454;"	l	line:1454
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1643;"	l	line:1643
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2334;"	l	line:2334
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1276;"	l	line:1276
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1453;"	l	line:1453
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1642;"	l	line:1642
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2333;"	l	line:2333
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2574;"	l	line:2574
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	54;"	l	line:54
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1103;"	l	line:1103
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	842;"	l	line:842
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	951;"	l	line:951
+current_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	154;"	m	line:154	struct:_FFS_FILE
+current_byte_within_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	155;"	m	line:155	struct:_FFS_FILE
+current_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1876;"	l	line:1876	file:
+current_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	152;"	m	line:152	struct:_FFS_FILE
+current_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	153;"	m	line:153	struct:_FFS_FILE
+cylinder_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	30;"	l	line:30
+data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	787;"	l	line:787
+data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1064;"	l	line:1064
+data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1104;"	l	line:1104
+data_area_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	271;"	v	line:271
+data_rx	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1036;"	l	line:1036
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1282;"	l	line:1282
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1458;"	l	line:1458
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	150;"	m	line:150	struct:_FFS_FILE
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1283;"	l	line:1283
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1459;"	l	line:1459
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	151;"	m	line:151	struct:_FFS_FILE
+disk_is_fat_32	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	272;"	v	line:272
+done_read_of_fat_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2578;"	l	line:2578
+dw_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2418;"	l	line:2418
+dw_count1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2419;"	l	line:2419
+dw_data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2416;"	l	line:2416
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1285;"	l	line:1285
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1873;"	l	line:1873
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2520;"	l	line:2520
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2577;"	l	line:2577
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	275;"	l	line:275
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	638;"	l	line:638
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	788;"	l	line:788
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	35;"	l	line:35
+end_of_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	168;"	m	line:168	struct:_FFS_FILE::<anonymous>::<anonymous>
+fat1_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	269;"	v	line:269
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1284;"	l	line:1284
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2420;"	l	line:2420
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2518;"	l	line:2518
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2575;"	l	line:2575
+ffs_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	304;"	v	line:304
+ffs_buffer_contains_lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	268;"	v	line:268
+ffs_buffer_needs_writing_to_card	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	267;"	v	line:267
+ffs_bytes_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	305;"	v	line:305
+ffs_card_ok	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	303;"	v	line:303
+ffs_card_write_protected	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	279;"	v	line:279
+ffs_check_command_response_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1101;"	f	line:1101	signature:(BYTE mask, BYTE data_requried)
+ffs_check_command_response_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	208;"	p	line:208	signature:(BYTE mask, BYTE data_requried)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1521;"	f	line:1521	signature:(FFS_FILE *file_pointer)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	235;"	p	line:235	signature:(FFS_FILE *file_pointer)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	267;"	p	line:267	signature:(FFS_FILE *file_pointer)
+ffs_convert_filename_to_dos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1735;"	f	line:1735	signature:(const char *source_filename, BYTE *dos_filename, BYTE *dos_extension)
+ffs_convert_filename_to_dos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	204;"	p	line:204	signature:(const char *source_filename, BYTE *dos_filename, BYTE *dos_extension)
+ffs_create_new_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2330;"	f	line:2330	signature:(const char *file_name, DWORD *write_file_start_cluster, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_create_new_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	208;"	p	line:208	signature:(const char *file_name, DWORD *write_file_start_cluster, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1236;"	f	line:1236	signature:(FFS_FILE *file_pointer)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	232;"	p	line:232	signature:(FFS_FILE *file_pointer)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	264;"	p	line:264	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1538;"	f	line:1538	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	236;"	p	line:236	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	268;"	p	line:268	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1557;"	f	line:1557	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	237;"	p	line:237	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	269;"	p	line:269	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1135;"	f	line:1135	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	231;"	p	line:231	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	263;"	p	line:263	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	785;"	f	line:785	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	225;"	p	line:225	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	257;"	p	line:257	signature:(FFS_FILE *file_pointer)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	592;"	f	line:592	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	222;"	p	line:222	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	254;"	p	line:254	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	997;"	f	line:997	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	228;"	p	line:228	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	260;"	p	line:260	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	302;"	v	line:302
+ffs_find_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1636;"	f	line:1636	signature:(const char *filename, DWORD *file_size, BYTE *attribute_byte, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector, BYTE *read_file_name, BYTE *read_file_extension)
+ffs_find_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	203;"	p	line:203	signature:(const char *filename, DWORD *file_size, BYTE *attribute_byte, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector, BYTE *read_file_name, BYTE *read_file_extension)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	50;"	f	line:50	signature:(const char *filename, const char *access_mode)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	218;"	p	line:218	signature:(const char *filename, const char *access_mode)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	250;"	p	line:250	signature:(const char *filename, const char *access_mode)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	636;"	f	line:636	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	224;"	p	line:224	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	256;"	p	line:256	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	930;"	f	line:930	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	226;"	p	line:226	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	258;"	p	line:258	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	956;"	f	line:956	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	227;"	p	line:227	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	259;"	p	line:259	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1090;"	f	line:1090	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	230;"	p	line:230	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	262;"	p	line:262	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	273;"	f	line:273	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	219;"	p	line:219	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	251;"	p	line:251	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	548;"	f	line:548	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	220;"	p	line:220	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	252;"	p	line:252	signature:(FFS_FILE *file_pointer, long *position)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	567;"	f	line:567	signature:(FFS_FILE *file_pointer)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	221;"	p	line:221	signature:(FFS_FILE *file_pointer)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	253;"	p	line:253	signature:(FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1044;"	f	line:1044	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	229;"	p	line:229	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	261;"	p	line:261	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	313;"	v	line:313
+ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	316;"	v	line:316
+ffs_get_next_cluster_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2516;"	f	line:2516	signature:(DWORD current_cluster)
+ffs_get_next_cluster_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	210;"	p	line:210	signature:(DWORD current_cluster)
+ffs_get_next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2413;"	f	line:2413	signature:(void)
+ffs_get_next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	209;"	p	line:209	signature:(void)
+ffs_getc::(file_pointer)ffs_fgetc(file_p	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	243;"	d	line:243
+ffs_getc::(file_pointer)ffs_fgetc(file_p	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	275;"	d	line:275
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1578;"	f	line:1578	signature:(void)
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	238;"	p	line:238	signature:(void)
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	270;"	p	line:270	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	808;"	f	line:808	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	216;"	p	line:216	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	231;"	p	line:231	signature:(void)
+ffs_modify_cluster_entry_in_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2570;"	f	line:2570	signature:(DWORD cluster_to_modify, DWORD cluster_entry_new_value)
+ffs_modify_cluster_entry_in_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	211;"	p	line:211	signature:(DWORD cluster_to_modify, DWORD cluster_entry_new_value)
+ffs_no_of_heads	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	256;"	v	line:256
+ffs_no_of_partition_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	258;"	v	line:258
+ffs_no_of_sectors_per_track	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	257;"	v	line:257
+ffs_overwrite_last_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2090;"	f	line:2090	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE write_time_date)
+ffs_overwrite_last_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	206;"	p	line:206	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE write_time_date)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	249;"	p	line:249	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	27;"	f	line:27	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	215;"	p	line:215	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	230;"	p	line:230	signature:(void)
+ffs_putc::(data,file_pointer)ffs_fputc(d	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	242;"	d	line:242
+ffs_putc::(data,file_pointer)ffs_fputc(d	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	274;"	d	line:274
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1082;"	f	line:1082	signature:(void)
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	221;"	p	line:221	signature:(void)
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	236;"	p	line:236	signature:(void)
+ffs_read_next_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1867;"	f	line:1867	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE start_from_beginning, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_read_next_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	205;"	p	line:205	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE start_from_beginning, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	840;"	f	line:840	signature:(DWORD sector_lba)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	217;"	p	line:217	signature:(DWORD sector_lba)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	232;"	p	line:232	signature:(DWORD sector_lba)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1062;"	f	line:1062	signature:(void)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	220;"	p	line:220	signature:(void)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	235;"	p	line:235	signature:(void)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1272;"	f	line:1272	signature:(const char *filename)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	233;"	p	line:233	signature:(const char *filename)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	265;"	p	line:265	signature:(const char *filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1451;"	f	line:1451	signature:(const char *old_filename, const char *new_filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	234;"	p	line:234	signature:(const char *old_filename, const char *new_filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	266;"	p	line:266	signature:(const char *old_filename, const char *new_filename)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	614;"	f	line:614	signature:(FFS_FILE *file_pointer)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	223;"	p	line:223	signature:(FFS_FILE *file_pointer)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	255;"	p	line:255	signature:(FFS_FILE *file_pointer)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	1034;"	f	line:1034	signature:(BYTE data)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	219;"	p	line:219	signature:(BYTE data)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	234;"	p	line:234	signature:(BYTE data)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	949;"	f	line:949	signature:(DWORD sector_lba)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	218;"	p	line:218	signature:(DWORD sector_lba)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	233;"	p	line:233	signature:(DWORD sector_lba)
+file_is_open	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	162;"	m	line:162	struct:_FFS_FILE::<anonymous>::<anonymous>
+file_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	52;"	l	line:52
+file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2332;"	l	line:2332
+file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	156;"	m	line:156	struct:_FFS_FILE
+file_size_has_changed	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	169;"	m	line:169	struct:_FFS_FILE::<anonymous>::<anonymous>
+file_system_information_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	255;"	v	line:255
+filename_all	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	721;"	v	line:721
+filename_test_csv	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	723;"	v	line:723
+filename_test_txt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	722;"	v	line:722
+flags	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	173;"	m	line:173	struct:_FFS_FILE
+general_use_100ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	116;"	v	line:116
+general_use_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	115;"	v	line:115
+get_file_start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2268;"	f	line:2268	signature:(FFS_FILE *file_pointer)
+get_file_start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	207;"	p	line:207	signature:(FFS_FILE *file_pointer)
+hb_100ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	1006;"	l	line:1006	file:
+hb_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	1005;"	l	line:1005	file:
+hb_1sec_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	1007;"	l	line:1007	file:
+head	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	29;"	l	line:29
+i_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	747;"	l	line:747
+inc_posn_before_next_rw	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	166;"	m	line:166	struct:_FFS_FILE::<anonymous>::<anonymous>
+initialise	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	70;"	p	line:70	signature:(void)
+interruptisrh	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	73;"	p	line:73	signature:(void)
+interruptisrl	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	74;"	p	line:74	signature:(void)
+last_found_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	274;"	v	line:274
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1287;"	l	line:1287
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2417;"	l	line:2417
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2519;"	l	line:2519
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2572;"	l	line:2572
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	36;"	l	line:36
+lowest_cluster_number_released	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1281;"	l	line:1281
+main	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	626;"	f	line:626	signature:(void)
+main_partition_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	37;"	l	line:37
+next_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1275;"	l	line:1275
+next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2421;"	l	line:2421
+no_null_found_yet	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1738;"	l	line:1738
+number_of_copies_of_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	39;"	l	line:39
+number_of_items_written	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1048;"	l	line:1048
+number_of_items_written	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1095;"	l	line:1095
+number_of_reserved_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	38;"	l	line:38
+number_of_root_directory_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	266;"	v	line:266
+our_file_0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	743;"	l	line:743	file:
+our_file_1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	744;"	l	line:744	file:
+process_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	741;"	f	line:741	signature:(void)
+process_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	72;"	p	line:72	signature:(void)
+read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	725;"	v	line:725
+read_attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2337;"	l	line:2337
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1279;"	l	line:1279
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1455;"	l	line:1455
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1644;"	l	line:1644
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2339;"	l	line:2339
+read_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2336;"	l	line:2336
+read_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	56;"	l	line:56
+read_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2335;"	l	line:2335
+read_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	55;"	l	line:55
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1278;"	l	line:1278
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1456;"	l	line:1456
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2338;"	l	line:2338
+read_permitted	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	163;"	m	line:163	struct:_FFS_FILE::<anonymous>::<anonymous>
+read_switches	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	683;"	f	line:683	signature:(void)
+read_switches	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	71;"	p	line:71	signature:(void)
+read_switches_flag	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	103;"	v	line:103
+read_write_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	728;"	v	line:728
+read_write_directory_last_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	278;"	v	line:278
+read_write_directory_last_lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	277;"	v	line:277
+reserved	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	170;"	m	line:170	struct:_FFS_FILE::<anonymous>::<anonymous>
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1000;"	l	line:1000
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1093;"	l	line:1093
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	933;"	l	line:933
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	959;"	l	line:959
+root_directory_start_sector_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	270;"	v	line:270
+sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	31;"	l	line:31
+sectors_left_in_this_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1875;"	l	line:1875	file:
+sectors_per_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	273;"	v	line:273
+sectors_per_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	275;"	v	line:275
+size_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1046;"	l	line:1046
+size_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1092;"	l	line:1092
+sm_ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.h	254;"	v	line:254
+spreadsheet_file_no_text_file_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	734;"	v	line:734
+start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2270;"	l	line:2270
+string_Pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1047;"	l	line:1047
+string_Pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1094;"	l	line:1094
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	932;"	l	line:932
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	958;"	l	line:958
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	999;"	l	line:999
+switches_debounced	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	113;"	v	line:113
+switches_debounced_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	687;"	l	line:687	file:
+switches_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	686;"	l	line:686	file:
+switches_new	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	114;"	v	line:114
+switches_read	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	685;"	l	line:685
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1274;"	l	line:1274
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1460;"	l	line:1460
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1639;"	l	line:1639
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1737;"	l	line:1737
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2576;"	l	line:2576
+test_application_state	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	105;"	v	line:105
+text_file_line1_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	732;"	v	line:732
+text_file_line2_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	733;"	v	line:733
+this_is_first_read	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1641;"	l	line:1641
+this_is_the_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1640;"	l	line:1640
+user_mode_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.h	104;"	v	line:104
+v	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	138;"	m	line:138	union:_WORD_VAL
+v	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	159;"	m	line:159	union:_DWORD_VAL
+val	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	132;"	m	line:132	union:_WORD_VAL
+val	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	146;"	m	line:146	union:_DWORD_VAL
+w_data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2415;"	l	line:2415
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	192;"	l	line:192
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1139;"	l	line:1139
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1872;"	l	line:1872
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	2095;"	l	line:2095
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-mmcsd.c	34;"	l	line:34
+wildcard_character_found	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.c	1739;"	l	line:1739
+word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\main.h	158;"	m	line:158	union:_DWORD_VAL
+word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	172;"	m	line:172	union:_FFS_FILE::<anonymous>
+write_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	726;"	v	line:726
+write_append_only	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	165;"	m	line:165	struct:_FFS_FILE::<anonymous>::<anonymous>
+write_permitted	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\mem-ffs.h	164;"	m	line:164	struct:_FFS_FILE::<anonymous>::<anonymous>
+write_read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-09\ap-main.c	729;"	v	line:729

@@ -1,0 +1,484 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BOOL	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	87;"	d	line:87
+BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	103;"	t	line:103
+BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	90;"	d	line:90
+CLEAR_WATCHDOG_TIMER::ClearWDT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	89;"	d	line:89
+CLEAR_WATCHDOG_TIMER::ClrWdt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	81;"	d	line:81
+CLEAR_WATCHDOG_TIMER::ClrWdt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	85;"	d	line:85
+CLEAR_WATCHDOG_TIMER::ClrWdt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	93;"	d	line:93
+CONSTANT::const	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	84;"	d	line:84
+DISABLE_INT::INTDisableInterrupts;	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	67;"	d	line:67
+DO_BUSY_STATE_ACCESS_DELAY::Nop	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	121;"	d	line:121
+DO_BUSY_STATE_ACCESS_DELAY::Nop;Nop	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	184;"	d	line:184
+DO_BUSY_STATE_ACCESS_DELAY::Nop;Nop	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	249;"	d	line:249
+DO_BUSY_STATE_ACCESS_DELAY::__asm("nop");__asm("nop");__as	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	318;"	d	line:318
+DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	111;"	t	line:111
+DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	94;"	d	line:94
+ENABLE_INT::INTEnableInterrupts;	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	66;"	d	line:66
+FALSE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	89;"	d	line:89
+FFC_DI::(FIO0PIN&0x00020000)	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	271;"	d	line:271
+FFC_DI::PORTCbits.RC4	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	75;"	d	line:75
+FFC_DI::_RF2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	137;"	d	line:137
+FFC_DI::mPORTGReadBits(BIT_7)	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	203;"	d	line:203
+FFS_ACCEPT_SDHC_CARDS::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	59;"	d	line:59
+FFS_C	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	14;"	d	line:14	file:
+FFS_CD_PIN_BIT::0x0001	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	233;"	d	line:233
+FFS_CD_PIN_BIT::0x00080000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	303;"	d	line:303
+FFS_CD_PIN_BIT::0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	106;"	d	line:106
+FFS_CD_PIN_BIT::0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	168;"	d	line:168
+FFS_CD_PIN_REGISTER::FIO0PIN	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	302;"	d	line:302
+FFS_CD_PIN_REGISTER::PORTC	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	105;"	d	line:105
+FFS_CD_PIN_REGISTER::PORTG	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	167;"	d	line:167
+FFS_CD_PIN_REGISTER::mPORTFRead	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	232;"	d	line:232
+FFS_CE::(state)(state?(FIO0SET=0x40000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	270;"	d	line:270
+FFS_CE::(state)(state?mPORTFSetBits(BI	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	202;"	d	line:202
+FFS_CE::(state)LATCbits.LATC1=state	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	74;"	d	line:74
+FFS_CE::(state)_LATF0=state	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	136;"	d	line:136
+FFS_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	59;"	d	line:59
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	119;"	d	line:119
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	181;"	d	line:181
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	246;"	d	line:246
+FFS_DRIVER_GEN_512_BYTE_BUFFER::ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	315;"	d	line:315
+FFS_EOF::-1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	195;"	d	line:195
+FFS_FILE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	184;"	t	line:184
+FFS_FOPEN_MAX::2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	100;"	d	line:100
+FFS_PROCESS_CARD_INITIALSIED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	337;"	e	line:337	enum:_FFS_PROCESS_STATE
+FFS_PROCESS_NO_CARD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	335;"	e	line:335	enum:_FFS_PROCESS_STATE
+FFS_PROCESS_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	338;"	t	line:338
+FFS_PROCESS_WAIT_FOR_CARD_FULLY_INSERTED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	336;"	e	line:336	enum:_FFS_PROCESS_STATE
+FFS_RTC_DATE::rtc_date	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	110;"	d	line:110
+FFS_RTC_HOURS::rtc_hours	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	111;"	d	line:111
+FFS_RTC_MINUTES::rtc_minutes	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	112;"	d	line:112
+FFS_RTC_MONTH::rtc_month	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	109;"	d	line:109
+FFS_RTC_SECONDS::rtc_seconds	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	113;"	d	line:113
+FFS_RTC_YEAR::rtc_year	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	108;"	d	line:108
+FFS_SEEK_CUR::1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	190;"	d	line:190
+FFS_SEEK_END::2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	191;"	d	line:191
+FFS_SEEK_SET::0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	189;"	d	line:189
+FFS_SPI_BUF_FULL::(SSP0SR&SSP0SR_RNE)	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	274;"	d	line:274
+FFS_SPI_BUF_FULL::IFS0bits.SPI1IF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	142;"	d	line:142
+FFS_SPI_BUF_FULL::PIR1bits.SSPIF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	84;"	d	line:84
+FFS_SPI_BUF_FULL::SpiChnDataRdy(2)	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	207;"	d	line:207
+FFS_SPI_RX_BYTE_BUFFER::(BYTE)ReadSPI2	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	209;"	d	line:209
+FFS_SPI_RX_BYTE_BUFFER::(BYTE)SSP0DR	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	278;"	d	line:278
+FFS_SPI_RX_BYTE_BUFFER::SPI1BUF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	144;"	d	line:144
+FFS_SPI_RX_BYTE_BUFFER::SSPBUF	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	86;"	d	line:86
+FFS_SPI_TX_BYTE::(data)IFS0bits.SPI1IF=0;SPI1BU	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	143;"	d	line:143
+FFS_SPI_TX_BYTE::(data)PIR1bits.SSPIF=0;SSPBUF=	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	85;"	d	line:85
+FFS_SPI_TX_BYTE::(data)WriteSPI2((unsignedint)d	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	208;"	d	line:208
+FFS_SPI_TX_BYTE::(data)while(SSP0SR&SSP0SR_RNE)	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	277;"	d	line:277
+FFS_WP_PIN_BIT::0x0002	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	240;"	d	line:240
+FFS_WP_PIN_BIT::0x02	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	175;"	d	line:175
+FFS_WP_PIN_BIT::0x04	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	113;"	d	line:113
+FFS_WP_PIN_NC::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	115;"	d	line:115
+FFS_WP_PIN_NC::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	177;"	d	line:177
+FFS_WP_PIN_NC::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	242;"	d	line:242
+FFS_WP_PIN_REGISTER::PORTC	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	112;"	d	line:112
+FFS_WP_PIN_REGISTER::PORTG	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	174;"	d	line:174
+GLOBAL_DATA_TYPE_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	82;"	d	line:82
+INSTRUCTION_CLOCK_FREQUENCY::20000000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	60;"	d	line:60
+LED1::(state)(state?mPORTDClearBits(	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	30;"	d	line:30
+LED2::(state)(state?mPORTDClearBits(	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	31;"	d	line:31
+MAIN_C::	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	15;"	d	line:15	file:
+MAIN_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	20;"	d	line:20
+MMCSD_C	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	14;"	d	line:14	file:
+MMCSD_C_INIT	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	41;"	d	line:41
+MMCSD_USING_CROSSWORKS_ARM_COMPILER	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	69;"	d	line:69
+MMCSD_USING_CROSSWORKS_ARM_COMPILER	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	52;"	d	line:52
+Nop::asm("nop")	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	49;"	d	line:49
+PORTB_IO::0x0000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	136;"	d	line:136	file:
+PORTC_IO::0x0000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	141;"	d	line:141	file:
+PORTD_IO::0x0003	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	146;"	d	line:146	file:
+PORTE_IO::0x0000	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	151;"	d	line:151	file:
+PORTF_IO::0x0006	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	156;"	d	line:156	file:
+PORTG_IO::0x0004	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	161;"	d	line:161	file:
+QWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	115;"	t	line:115
+QWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	96;"	d	line:96
+SIGNED_BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	105;"	t	line:105
+SIGNED_BYTE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	91;"	d	line:91
+SIGNED_DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	113;"	t	line:113
+SIGNED_DWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	95;"	d	line:95
+SIGNED_QWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	117;"	t	line:117
+SIGNED_QWORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	97;"	d	line:97
+SIGNED_WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	109;"	t	line:109
+SIGNED_WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	93;"	d	line:93
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	156;"	d	line:156
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SSP0CR1=0;SSP0CPSR=4;SSP1CR1=S	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	290;"	d	line:290
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	96;"	d	line:96
+SPI_BUS_SET_TO_FULL_SPEED_MMC::SpiChnOpen(2,(SPI_CON_MSTEN|SP	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	221;"	d	line:221
+SPI_BUS_SET_TO_FULL_SPEED_SD::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	161;"	d	line:161
+SPI_BUS_SET_TO_FULL_SPEED_SD::SSP0CR1=0;SSP0CPSR=4;SSP0CR1=S	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	295;"	d	line:295
+SPI_BUS_SET_TO_FULL_SPEED_SD::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	100;"	d	line:100
+SPI_BUS_SET_TO_FULL_SPEED_SD::SpiChnOpen(2,(SPI_CON_MSTEN|SP	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	226;"	d	line:226
+SPI_BUS_SET_TO_LOW_SPEED::SPI1STATbits.SPIEN=0;SPI1CON1b	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	151;"	d	line:151
+SPI_BUS_SET_TO_LOW_SPEED::SSP0CPSR=150	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	285;"	d	line:285
+SPI_BUS_SET_TO_LOW_SPEED::SSPCON1bits.SSPM3=0;SSPCON1bit	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	92;"	d	line:92
+SPI_BUS_SET_TO_LOW_SPEED::SpiChnOpen(2,(SPI_CON_MSTEN|SP	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	216;"	d	line:216
+SWITCH_1_NEW_PRESS::switches_new&0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	39;"	d	line:39
+SWITCH_1_PRESSED::switches_debounced&0x01	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	37;"	d	line:37
+TA_PROCESS_CARD_INSERTED	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	47;"	e	line:47	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_CARD_OPERTATION_DONE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	49;"	e	line:49	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_DELETE_AND_CREATE_FILES	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	48;"	e	line:48	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_ERROR	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	50;"	e	line:50	enum:_TEST_APPLICATION_STATE
+TA_PROCESS_WAIT_FOR_CARD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	46;"	e	line:46	enum:_TEST_APPLICATION_STATE
+TEST_APPLICATION_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	51;"	t	line:51
+TRUE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	88;"	d	line:88
+Timer5IntHandler	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	741;"	f	line:741	signature:(void)
+WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	107;"	t	line:107
+WORD	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\main.h	92;"	d	line:92
+_FFS_FILE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	157;"	s	line:157
+_FFS_PROCESS_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	333;"	g	line:333
+_TEST_APPLICATION_STATE	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	44;"	g	line:44
+_general_exception_handler	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	848;"	f	line:848	signature:(void)
+access_error	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	176;"	m	line:176	struct:_FFS_FILE::<anonymous>::<anonymous>
+active_fat_table_flags	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	424;"	v	line:424
+append_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	467;"	v	line:467
+append_read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	470;"	v	line:470
+asterix_wildcard_used	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2185;"	l	line:2185
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1296;"	l	line:1296
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1546;"	l	line:1546
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1893;"	l	line:1893
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2785;"	l	line:2785
+attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	53;"	l	line:53
+b_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	351;"	l	line:351
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	105;"	l	line:105
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	485;"	l	line:485
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2316;"	l	line:2316
+b_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	33;"	l	line:33
+bits	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	180;"	m	line:180	union:_FFS_FILE::<anonymous>
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1153;"	l	line:1153
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1302;"	l	line:1302
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1552;"	l	line:1552
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2319;"	l	line:2319
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2538;"	l	line:2538
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2716;"	l	line:2716
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2867;"	l	line:2867
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2966;"	l	line:2966
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3018;"	l	line:3018
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	639;"	l	line:639
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	805;"	l	line:805
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	40;"	l	line:40
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	844;"	l	line:844
+buffer_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	964;"	l	line:964
+byte_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	352;"	l	line:352
+bytes_per_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1555;"	l	line:1555
+bytes_per_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	277;"	l	line:277
+bytes_to_new_posn	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	276;"	l	line:276
+c_string_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	486;"	l	line:486
+calculate_new_posn	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	278;"	l	line:278
+card_is_high_capacity	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	406;"	v	line:406
+chk_cmd_response_data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	407;"	v	line:407
+cluster_to_modify	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1307;"	l	line:1307
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1293;"	l	line:1293
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1543;"	l	line:1543
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1890;"	l	line:1890
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2088;"	l	line:2088
+converted_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2779;"	l	line:2779
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1292;"	l	line:1292
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1542;"	l	line:1542
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1889;"	l	line:1889
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2087;"	l	line:2087
+converted_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2778;"	l	line:2778
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1305;"	l	line:1305
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1557;"	l	line:1557
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3019;"	l	line:3019
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	54;"	l	line:54
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1134;"	l	line:1134
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	843;"	l	line:843
+count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	963;"	l	line:963
+current_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	163;"	m	line:163	struct:_FFS_FILE
+current_byte_within_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	164;"	m	line:164	struct:_FFS_FILE
+current_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1306;"	l	line:1306
+current_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2321;"	l	line:2321	file:
+current_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	161;"	m	line:161	struct:_FFS_FILE
+current_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	162;"	m	line:162	struct:_FFS_FILE
+cylinder_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	30;"	l	line:30
+data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	803;"	l	line:803
+data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1095;"	l	line:1095
+data_area_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	419;"	v	line:419
+data_rx	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1067;"	l	line:1067
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1298;"	l	line:1298
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1548;"	l	line:1548
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1894;"	l	line:1894
+directory_entry_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	159;"	m	line:159	struct:_FFS_FILE
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1299;"	l	line:1299
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1549;"	l	line:1549
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1895;"	l	line:1895
+directory_entry_within_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	160;"	m	line:160	struct:_FFS_FILE
+disk_is_fat_32	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	420;"	v	line:420
+done_read_of_fat_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3023;"	l	line:3023
+dw_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2863;"	l	line:2863
+dw_count1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2864;"	l	line:2864
+dw_data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2861;"	l	line:2861
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1301;"	l	line:1301
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1551;"	l	line:1551
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2318;"	l	line:2318
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	275;"	l	line:275
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2965;"	l	line:2965
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3022;"	l	line:3022
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	638;"	l	line:638
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	804;"	l	line:804
+dw_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	35;"	l	line:35
+end_of_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	177;"	m	line:177	struct:_FFS_FILE::<anonymous>::<anonymous>
+fat1_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	417;"	v	line:417
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1300;"	l	line:1300
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1550;"	l	line:1550
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2865;"	l	line:2865
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2963;"	l	line:2963
+fat_entries_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3020;"	l	line:3020
+fat_needs_storing	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1304;"	l	line:1304
+fat_needs_storing	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1556;"	l	line:1556
+ffs_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	312;"	v	line:312
+ffs_buffer_contains_lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	416;"	v	line:416
+ffs_buffer_needs_writing_to_card	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	415;"	v	line:415
+ffs_bytes_per_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	313;"	v	line:313
+ffs_card_ok	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	311;"	v	line:311
+ffs_card_write_protected	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	427;"	v	line:427
+ffs_change_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1538;"	f	line:1538	signature:(const char *filename, DWORD new_file_size)
+ffs_change_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	243;"	p	line:243	signature:(const char *filename, DWORD new_file_size)
+ffs_change_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	276;"	p	line:276	signature:(const char *filename, DWORD new_file_size)
+ffs_check_command_response_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1132;"	f	line:1132	signature:(BYTE mask, BYTE data_requried)
+ffs_check_command_response_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	355;"	p	line:355	signature:(BYTE mask, BYTE data_requried)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1966;"	f	line:1966	signature:(FFS_FILE *file_pointer)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	245;"	p	line:245	signature:(FFS_FILE *file_pointer)
+ffs_clearerr	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	278;"	p	line:278	signature:(FFS_FILE *file_pointer)
+ffs_convert_filename_to_dos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2180;"	f	line:2180	signature:(const char *source_filename, BYTE *dos_filename, BYTE *dos_extension)
+ffs_convert_filename_to_dos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	213;"	p	line:213	signature:(const char *source_filename, BYTE *dos_filename, BYTE *dos_extension)
+ffs_create_new_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2775;"	f	line:2775	signature:(const char *file_name, DWORD *write_file_start_cluster, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_create_new_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	217;"	p	line:217	signature:(const char *file_name, DWORD *write_file_start_cluster, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1252;"	f	line:1252	signature:(FFS_FILE *file_pointer)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	241;"	p	line:241	signature:(FFS_FILE *file_pointer)
+ffs_fclose	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	274;"	p	line:274	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1983;"	f	line:1983	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	246;"	p	line:246	signature:(FFS_FILE *file_pointer)
+ffs_feof	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	279;"	p	line:279	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2002;"	f	line:2002	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	247;"	p	line:247	signature:(FFS_FILE *file_pointer)
+ffs_ferror	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	280;"	p	line:280	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1151;"	f	line:1151	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	240;"	p	line:240	signature:(FFS_FILE *file_pointer)
+ffs_fflush	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	273;"	p	line:273	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	801;"	f	line:801	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	234;"	p	line:234	signature:(FFS_FILE *file_pointer)
+ffs_fgetc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	267;"	p	line:267	signature:(FFS_FILE *file_pointer)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	592;"	f	line:592	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	231;"	p	line:231	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	264;"	p	line:264	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1013;"	f	line:1013	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	237;"	p	line:237	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_fgets	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	270;"	p	line:270	signature:(char *string, int length, FFS_FILE *file_pointer)
+ffs_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	310;"	v	line:310
+ffs_find_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2081;"	f	line:2081	signature:(const char *filename, DWORD *file_size, BYTE *attribute_byte, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector, BYTE *read_file_name, BYTE *read_file_extension)
+ffs_find_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	212;"	p	line:212	signature:(const char *filename, DWORD *file_size, BYTE *attribute_byte, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector, BYTE *read_file_name, BYTE *read_file_extension)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	50;"	f	line:50	signature:(const char *filename, const char *access_mode)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	227;"	p	line:227	signature:(const char *filename, const char *access_mode)
+ffs_fopen	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	260;"	p	line:260	signature:(const char *filename, const char *access_mode)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	636;"	f	line:636	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	233;"	p	line:233	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputc	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	266;"	p	line:266	signature:(int data, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	946;"	f	line:946	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	235;"	p	line:235	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	268;"	p	line:268	signature:(const char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	972;"	f	line:972	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	236;"	p	line:236	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fputs_char	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	269;"	p	line:269	signature:(char *string, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1106;"	f	line:1106	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	239;"	p	line:239	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fread	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	272;"	p	line:272	signature:(void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	273;"	f	line:273	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	228;"	p	line:228	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fseek	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	261;"	p	line:261	signature:(FFS_FILE *file_pointer, long offset, int origin)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	548;"	f	line:548	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	229;"	p	line:229	signature:(FFS_FILE *file_pointer, long *position)
+ffs_fsetpos	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	262;"	p	line:262	signature:(FFS_FILE *file_pointer, long *position)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	567;"	f	line:567	signature:(FFS_FILE *file_pointer)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	230;"	p	line:230	signature:(FFS_FILE *file_pointer)
+ffs_ftell	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	263;"	p	line:263	signature:(FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1060;"	f	line:1060	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	238;"	p	line:238	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_fwrite	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	271;"	p	line:271	signature:(const void *buffer, int size, int count, FFS_FILE *file_pointer)
+ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	321;"	v	line:321
+ffs_general_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	324;"	v	line:324
+ffs_get_next_cluster_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2961;"	f	line:2961	signature:(DWORD current_cluster)
+ffs_get_next_cluster_no	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	219;"	p	line:219	signature:(DWORD current_cluster)
+ffs_get_next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2858;"	f	line:2858	signature:(void)
+ffs_get_next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	218;"	p	line:218	signature:(void)
+ffs_getc::(file_pointer)ffs_fgetc(file_p	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	253;"	d	line:253
+ffs_getc::(file_pointer)ffs_fgetc(file_p	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	286;"	d	line:286
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2023;"	f	line:2023	signature:(void)
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	248;"	p	line:248	signature:(void)
+ffs_is_card_available	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	281;"	p	line:281	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	809;"	f	line:809	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	363;"	p	line:363	signature:(void)
+ffs_is_card_present	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	378;"	p	line:378	signature:(void)
+ffs_modify_cluster_entry_in_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3015;"	f	line:3015	signature:(DWORD cluster_to_modify, DWORD cluster_entry_new_value)
+ffs_modify_cluster_entry_in_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	220;"	p	line:220	signature:(DWORD cluster_to_modify, DWORD cluster_entry_new_value)
+ffs_no_of_heads	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	403;"	v	line:403
+ffs_no_of_partition_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	405;"	v	line:405
+ffs_no_of_sectors_per_track	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	404;"	v	line:404
+ffs_overwrite_last_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2535;"	f	line:2535	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE write_time_date)
+ffs_overwrite_last_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	215;"	p	line:215	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE write_time_date)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	259;"	p	line:259	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	27;"	f	line:27	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	362;"	p	line:362	signature:(void)
+ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	377;"	p	line:377	signature:(void)
+ffs_putc::(data,file_pointer)ffs_fputc(d	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	252;"	d	line:252
+ffs_putc::(data,file_pointer)ffs_fputc(d	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	285;"	d	line:285
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1113;"	f	line:1113	signature:(void)
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	368;"	p	line:368	signature:(void)
+ffs_read_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	383;"	p	line:383	signature:(void)
+ffs_read_next_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2312;"	f	line:2312	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE start_from_beginning, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_read_next_directory_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	214;"	p	line:214	signature:(BYTE *file_name, BYTE *file_extension, BYTE *attribute_byte, DWORD *file_size, DWORD *cluster_number, BYTE start_from_beginning, DWORD *directory_entry_sector, BYTE *directory_entry_within_sector)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	841;"	f	line:841	signature:(DWORD sector_lba)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	364;"	p	line:364	signature:(DWORD sector_lba)
+ffs_read_sector_to_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	379;"	p	line:379	signature:(DWORD sector_lba)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1093;"	f	line:1093	signature:(void)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	367;"	p	line:367	signature:(void)
+ffs_read_word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	382;"	p	line:382	signature:(void)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1288;"	f	line:1288	signature:(const char *filename)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	242;"	p	line:242	signature:(const char *filename)
+ffs_remove	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	275;"	p	line:275	signature:(const char *filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1887;"	f	line:1887	signature:(const char *old_filename, const char *new_filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	244;"	p	line:244	signature:(const char *old_filename, const char *new_filename)
+ffs_rename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	277;"	p	line:277	signature:(const char *old_filename, const char *new_filename)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	614;"	f	line:614	signature:(FFS_FILE *file_pointer)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	232;"	p	line:232	signature:(FFS_FILE *file_pointer)
+ffs_rewind	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	265;"	p	line:265	signature:(FFS_FILE *file_pointer)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	1065;"	f	line:1065	signature:(BYTE data)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	366;"	p	line:366	signature:(BYTE data)
+ffs_write_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	381;"	p	line:381	signature:(BYTE data)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	961;"	f	line:961	signature:(DWORD sector_lba)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	365;"	p	line:365	signature:(DWORD sector_lba)
+ffs_write_sector_from_buffer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	380;"	p	line:380	signature:(DWORD sector_lba)
+file_is_open	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	171;"	m	line:171	struct:_FFS_FILE::<anonymous>::<anonymous>
+file_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	52;"	l	line:52
+file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2777;"	l	line:2777
+file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	165;"	m	line:165	struct:_FFS_FILE
+file_size_has_changed	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	178;"	m	line:178	struct:_FFS_FILE::<anonymous>::<anonymous>
+file_system_information_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	402;"	v	line:402
+filename	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	350;"	l	line:350
+filename_all	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	461;"	v	line:461
+filename_test_csv	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	463;"	v	line:463
+filename_test_txt	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	462;"	v	line:462
+flags	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	182;"	m	line:182	struct:_FFS_FILE
+general_use_100ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	112;"	v	line:112
+general_use_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	111;"	v	line:111
+get_file_start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2713;"	f	line:2713	signature:(FFS_FILE *file_pointer)
+get_file_start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	216;"	p	line:216	signature:(FFS_FILE *file_pointer)
+hb_100ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	744;"	l	line:744	file:
+hb_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	743;"	l	line:743	file:
+hb_1sec_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	745;"	l	line:745	file:
+head	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	29;"	l	line:29
+i_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	487;"	l	line:487
+inc_posn_before_next_rw	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	175;"	m	line:175	struct:_FFS_FILE::<anonymous>::<anonymous>
+initialise	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	102;"	f	line:102	signature:(void)
+initialise	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	69;"	p	line:69	signature:(void)
+last_found_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	422;"	v	line:422
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1303;"	l	line:1303
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1553;"	l	line:1553
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2862;"	l	line:2862
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2964;"	l	line:2964
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3017;"	l	line:3017
+lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	36;"	l	line:36
+lba_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1308;"	l	line:1308
+lba_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1554;"	l	line:1554
+lowest_cluster_number_released	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1297;"	l	line:1297
+lowest_cluster_number_released	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1547;"	l	line:1547
+main	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	305;"	f	line:305	signature:(void)
+main_partition_start_sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	37;"	l	line:37
+next_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1291;"	l	line:1291
+next_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1541;"	l	line:1541
+next_free_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2866;"	l	line:2866
+next_free_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1558;"	l	line:1558
+no_null_found_yet	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2183;"	l	line:2183
+number_of_copies_of_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	39;"	l	line:39
+number_of_items_written	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1064;"	l	line:1064
+number_of_items_written	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1111;"	l	line:1111
+number_of_reserved_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	38;"	l	line:38
+number_of_root_directory_sectors	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	414;"	v	line:414
+our_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	349;"	l	line:349	file:
+our_file_0	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	483;"	l	line:483	file:
+our_file_1	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	484;"	l	line:484	file:
+process_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	481;"	f	line:481	signature:(void)
+process_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	71;"	p	line:71	signature:(void)
+read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	465;"	v	line:465
+read_attribute_byte	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2782;"	l	line:2782
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1295;"	l	line:1295
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1545;"	l	line:1545
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1891;"	l	line:1891
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2089;"	l	line:2089
+read_cluster_number	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2784;"	l	line:2784
+read_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2781;"	l	line:2781
+read_file_extension	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	56;"	l	line:56
+read_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2780;"	l	line:2780
+read_file_name	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	55;"	l	line:55
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1294;"	l	line:1294
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1544;"	l	line:1544
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1892;"	l	line:1892
+read_file_size	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2783;"	l	line:2783
+read_permitted	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	172;"	m	line:172	struct:_FFS_FILE::<anonymous>::<anonymous>
+read_successful	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	845;"	l	line:845
+read_switches	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	421;"	f	line:421	signature:(void)
+read_switches	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	70;"	p	line:70	signature:(void)
+read_switches_flag	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	100;"	v	line:100
+read_write_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	468;"	v	line:468
+read_write_directory_last_entry	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	426;"	v	line:426
+read_write_directory_last_lba	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	425;"	v	line:425
+reserved	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	179;"	m	line:179	struct:_FFS_FILE::<anonymous>::<anonymous>
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1016;"	l	line:1016
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1109;"	l	line:1109
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	949;"	l	line:949
+return_value	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	975;"	l	line:975
+root_directory_start_sector_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	418;"	v	line:418
+sector	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	31;"	l	line:31
+sectors_left_in_this_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2320;"	l	line:2320	file:
+sectors_per_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	421;"	v	line:421
+sectors_per_fat	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	423;"	v	line:423
+size_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1062;"	l	line:1062
+size_count	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1108;"	l	line:1108
+sm_ffs_process	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	401;"	v	line:401
+spi_rx_dummy_reg	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.h	266;"	v	line:266
+spreadsheet_file_no_text_file_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	474;"	v	line:474
+start_cluster	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2715;"	l	line:2715
+string_Pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1063;"	l	line:1063
+string_Pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1110;"	l	line:1110
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1015;"	l	line:1015
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	948;"	l	line:948
+string_pointer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	974;"	l	line:974
+switches_debounced	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	109;"	v	line:109
+switches_debounced_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	425;"	l	line:425	file:
+switches_last	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	424;"	l	line:424	file:
+switches_new	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	110;"	v	line:110
+switches_read	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	423;"	l	line:423
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1290;"	l	line:1290
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1540;"	l	line:1540
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1896;"	l	line:1896
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2084;"	l	line:2084
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2182;"	l	line:2182
+temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	3021;"	l	line:3021
+test_application_state	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	102;"	v	line:102
+text_file_line1_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	472;"	v	line:472
+text_file_line2_string	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	473;"	v	line:473
+this_is_first_read	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2086;"	l	line:2086
+this_is_the_file	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2085;"	l	line:2085
+user_mode_10ms_timer	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.h	101;"	v	line:101
+w_data	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2860;"	l	line:2860
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	104;"	l	line:104
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	1155;"	l	line:1155
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2317;"	l	line:2317
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2540;"	l	line:2540
+w_temp	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	34;"	l	line:34
+wildcard_character_found	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.c	2184;"	l	line:2184
+word	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	181;"	m	line:181	union:_FFS_FILE::<anonymous>
+write_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	466;"	v	line:466
+write_append_only	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	174;"	m	line:174	struct:_FFS_FILE::<anonymous>::<anonymous>
+write_permitted	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-ffs.h	173;"	m	line:173	struct:_FFS_FILE::<anonymous>::<anonymous>
+write_read_access_mode	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\ap-main.c	469;"	v	line:469
+write_successful	C:\_EC\_PROJ\3563 MMC SD Card Driver\firm\V1-12 - COMMITTED 06-07-11\mem-mmcsd.c	965;"	l	line:965
